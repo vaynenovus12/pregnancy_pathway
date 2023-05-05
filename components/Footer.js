@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div className={styles.footer}>
             <div className={styles.footerSection}>
-                <p className={styles.copyright}>© 2023 SupplyGO. All rights reserved.</p>
+                <p className={styles.copyright}>© 2023 Pregnancy Pathway. All rights reserved.</p>
                 <div className={styles.companySection}>
                     <p className={styles.company}>Company</p>
                     <Link href="/" className={styles.companyContent}>Privacy Policy</Link>
