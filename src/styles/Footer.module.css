@@ -1,0 +1,60 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: teal;
+    color: white;
+    padding: 30px;
+    
+}
+
+.copyright {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.footerSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.companySection {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.company {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.companyContent {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 10px;
+}
+
+.socialMedia {
+    margin: 20px;
+    font-size: 25px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+    .footerSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .company {
+        margin-top: 10px;
+    }
+
+    .socialMediaLayout {
+        margin-top: 10px;
+    }
+
+   }
