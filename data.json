@@ -1,0 +1,14 @@
+[
+    {
+        "patients": {
+            "id": "7232371238d3k423j3342",
+            "name": "Zul",
+            "age": 24,
+            "dob": "1965-08-4",
+            "phone_num": "01123723726",
+            "medical_history": [],
+            "symptoms": [],
+            "bmi": 0.00
+        }
+    }
+]

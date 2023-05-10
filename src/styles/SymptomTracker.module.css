@@ -1,0 +1,50 @@
+.navbarAndSymptomLayout {
+    display: flex;
+    flex-direction: row;
+}
+
+.symptomTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    color: #5b4b68;
+    margin-top: 20px;
+}
+
+.symptom {
+    width: 60%;
+    margin-left: 15%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.SaveButton {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 30%;
+}
+
+.symptomHistory {
+    width: 60%;
+    margin-left: 15%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+    .navbarAndSymptomLayout {
+        flex-direction: column;
+    }
+
+    .inputSymptom {
+        width: 70%;
+    }
+
+    .symptom {
+        width: 100%;
+    }
+
+    .symptom {
+        width: 80%;
+    }
+}

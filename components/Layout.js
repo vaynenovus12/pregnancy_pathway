@@ -1,10 +1,13 @@
 import Footer from "./Footer";
+import styles from "../src/styles/Footer.module.css"
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
     return (
         <div>
             {children}
-            <Footer />
+            <div className={styles.footer}>
+                <Footer />
+            </div>
         </div>
     );
 }
