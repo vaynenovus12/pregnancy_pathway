@@ -1,4 +1,4 @@
-(*UMHackathon 2023 Project*)
+*UMHackathon 2023 Project*
 Team Name: Alt+F4
 Domain 2: Obstetrics and gynaecology (ObGyn)
 
