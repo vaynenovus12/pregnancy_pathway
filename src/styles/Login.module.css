@@ -1,0 +1,91 @@
+.loginLayout {
+    display: flex;
+    flex-direction: row;
+}
+
+.loginBackgroundImg {
+    left: 0;
+    width: 50%;
+    filter: brightness(60%);
+}
+
+.greeting {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: bolder;
+    font-size: 24px;
+    text-align: center;
+}
+
+.innerLayout {
+    flex-direction: column;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.buttonGoogleSignIn {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    border-color: black;
+    border-width: 0.5px;
+    font-weight: bold;
+    height: 45px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.agreement {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #666666;
+    margin: 0 5px 0 5px;
+}
+
+.termsConditionsPP {
+    font-family: 'Montserrat', sans-serif;
+    color: #0172e4;
+}
+
+.alignAgreement {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+    .loginLayout {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .agreement {
+        font-size: 13px;  
+    }
+
+    .termsConditionsPP {
+        font-size: 13px;
+    }
+
+    .loginBackgroundImg {
+
+        width: 100%;
+        filter: brightness(60%);
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1250px) {
+    .loginLayout {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .loginBackgroundImg {
+        width: 100%;
+        filter: brightness(60%);
+    }
+}

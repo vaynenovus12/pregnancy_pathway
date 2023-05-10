@@ -1,0 +1,91 @@
+.navbar {
+    left: 0;
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    background-color: #873e8a;
+    justify-content: space-around;
+    text-align: center;
+    height: auto;
+}
+
+.navbarAndProfileLayout {
+    display: flex;
+    flex-direction: row;
+}
+
+.alignProfile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    align-items: center;
+
+}
+
+.personalInfoTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    color: #5b4b68;
+    margin-top: 20px;
+}
+
+.medicalHistTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    color: #5b4b68;
+    margin-top: 20px;
+}
+
+.navigationMenu {
+    font-size: 30px;
+}
+
+.alignContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 32%;
+}
+
+.birth_date {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #5b4b68;
+}
+
+.medicalHistory {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    color: #5b4b68;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+    .alignContent {
+        margin-left: 0;
+    }
+
+    .navbar {
+        left: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: #873e8a;
+        text-align: center;
+        height: auto;
+    }
+
+    .navbarAndProfileLayout {
+        flex-direction: column;
+    }
+
+
+
+    .navigationMenu {
+        margin: 10px;
+    }
+
+}
